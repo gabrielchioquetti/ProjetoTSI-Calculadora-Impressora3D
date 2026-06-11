@@ -2,9 +2,10 @@ package Model;
 
 public class CalculadoraCusto {
 
-    public double custoHora(double preco_impressora, double horas_impressao){
+    public double custoHora(double preco_impressora, double horas_impressao){ 
         double horas_totais = 2 * 365 * horas_impressao;
-        return preco_impressora / horas_totais;
+        double custo_hora = preco_impressora / horas_totais;
+        return custo_hora * horas_impressao;
     }
 
     public double custoManutencao(double tempo_impressao){

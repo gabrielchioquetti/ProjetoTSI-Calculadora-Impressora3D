@@ -302,7 +302,7 @@ public class App extends Application {
         gridImpressora.add(cardDireitoImpressora, 1, 0);
 
         primaryStage.setTitle("Calculadora de Custo - Impressão 3D");
-        primaryStage.setScene(new Scene(gridImpressora, 1000, 800));
+        primaryStage.setScene(new Scene(gridImpressora, 1050, 800));
         primaryStage.setResizable(false);
         primaryStage.show();
     }
